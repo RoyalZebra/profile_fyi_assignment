@@ -40,7 +40,7 @@ export default function SignIn() {
           id="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full p-2 bg-[#ffedc2] rounded"
+          className="w-full p-2 border rounded"
           required
         />
       </div>
@@ -51,7 +51,7 @@ export default function SignIn() {
           id="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="w-full p-2 bg-[#ffedc2] rounded"
+          className="w-full p-2 border rounded"
           required
         />
       </div>
