@@ -79,7 +79,7 @@ export default function SignUp() {
           id="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="w-full p-2 bg-[#222] rounded"
+          className="w-full p-2 border rounded"
           required
         />
       </div>
